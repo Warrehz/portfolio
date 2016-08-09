@@ -213,3 +213,68 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 980px) {
+	.container {
+		width: 100%;
+		max-width: 760px;
+	}
+	.main-section {
+		width: 100%;
+		max-width: 450px;
+	}
+	.auth-image {
+		width: 100%;
+	}
+	.work {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+		max-width: 700px;
+	}
+	.main-section {
+		width: 100%;
+		max-width: 690px;
+	}
+	.auth-image {
+		width: 100%;
+		max-width: 325px;
+	}
+	.sidebar {
+		width: 100%;
+		max-width: 690px;
+		float: left;
+	}
+	.work {
+		width: 46%;
+		float; left;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#masthead {
+		position: static;
+	}
+	.container {
+		width: 100%;
+		max-width: 585px;
+	}
+	/* Why does removing the #main-container with padding of 0 screw up the space between the header and main content section? */
+	#main-container {
+		padding-top: 0px;
+	}
+	#logo {
+		width: 100%;
+	}
+	nav {
+		width: 100%;
+		text-align: center;
+	}
+	.work {
+		width: 100%;
+	}
+}
